@@ -2,7 +2,7 @@ export function handleSearch() {
   const searchInput = document.querySelector('.search-bar');
   const searchQuery = searchInput.value.trim();
   if (searchQuery) {
-    window.location.href = `amazon.html?search=${searchQuery}`;
+    window.location.href = `index.html?search=${searchQuery}`;
   }
 }
   document.querySelector('.search-button').addEventListener('click', (e) => {
@@ -15,4 +15,5 @@ export function handleSearch() {
       e.preventDefault();
       handleSearch();
     }
+
   });
