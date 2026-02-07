@@ -22,7 +22,7 @@ if (filteredProducts.length === 0) {
     <div class="no-products-found">
       <h2>Product not found!</h2>
       <p>Sorry, we couldn't find any products matching "${searchQuery}".</p>
-      <p>Try searching for something else or check our <a href="amazon.html">products</a>.</p>
+      <p>Try searching for something else or check our <a href="index.html">products</a>.</p>
     </div>
   `;
 } else {
@@ -118,3 +118,4 @@ document.querySelectorAll('.js-add-to-cart')
   });
 
 handleSearch();
+
